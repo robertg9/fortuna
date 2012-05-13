@@ -1,0 +1,8 @@
+<%= simple_form_for(@post) do |f| %>
+    <%= f.error_notification %>
+    <div class="inputs">
+      <%= f.input :title, :input_html => {:size => 60} %>
+      <%= f.input :content, :input_html => {:rows => 4, :cols => 60} %>
+    </div>
+    <div class="actions"><%= f.button :submit %></div>
+<% end %>

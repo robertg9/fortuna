@@ -1,0 +1,8 @@
+<%= simple_form_for [@post, @comment] do |f| %>
+    <div class="inputs">
+      <%= f.input :content, :input_html => {:rows => 4, :cols => 60} %>
+    </div>
+    <div class="actions">
+      <%= f.button :submit %>
+    </div>
+<% end %>

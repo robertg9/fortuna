@@ -1,0 +1,22 @@
+body {
+    background-color: #7BA1A4;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: 18px;
+}
+
+input[type="text"], textarea {
+    font: inherit;
+    font-size: 100%;
+}
+label {
+    display: block;
+    margin: 0.5em 0 0.25em 0;
+}
+.error {
+    margin: 0.25em 0;
+    font-size: 80%;
+    color: #FF0051;
+}
+.actions {
+    margin: 1.0em 0;
+}
